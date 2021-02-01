@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/Projet3.css" />
+    <link rel="stylesheet" href="style.css" />
 	<link rel="stylesheet" href="fontawesome/css/all.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La palette du goût</title>
@@ -12,93 +12,90 @@
         <i class="fas fa-arrow-left"onclick="location.href='index.html';"style="cursor:pointer;"></i>
         <img class="logo" src="images/logo/ohmyfood.png" />
     </header>
-			
-        <img class="img2" src="images/restaurants/restaurant1.jpg" />
-        <div class="titre">
-            <p class="texte2">La palette du goût</p>
-            <i class="far fa-heart fa-lg"></i>
+
+    <div class=restaurant">
+
+        <div class="restaurant__banniere">
+                            
+            <img class="img2" src="images/restaurants/restaurant1.jpg" />
+
+            <div class="restaurant__banniere--description">
+                <div class= description>
+                    <p class="description--bold">La palette du goût</p> 
+                </div>
+                <div>
+                    <i class="far fa-heart fa-lg"></i>
+                </div>
+            </div>
         </div>
 
+        <section>
 
-    <div class="entrées">
-        <h2 class="menu">ENTREES</h2>
-        <div class="choix">
-            <p class="texte1"><span class="texte2">Fricassée d'escargot</span><br />
-                <p class="description">Au piment d'espelette<span class="prix">25€</span></p>
-            </p>  
-                      
-        </div>
-        <div class="choix">
-            <p class="texte1"><span class="texte2">Foie gras de canard mi-cuit</span><br /> 
-                <p class="description">Et ses copeaux de truffe noire<span class="prix">35€</span></p>
-            </p>
-                
-            
-        </div>
-        <div class="choix">
-            <p class="texte1"><span class="texte2">Oeuf au plat</span><br /> 
-                <p class="description">Assaisonné à la truffe sur lit de salade<span class="prix">20€</span></p>
-            </p>
-                
-            
+            <h2>ENTREES</h2>
+
+            <div class="module">
+                <p class="description--bold">Fricassée d'escargot</span></p>
+                <p class="description">Au piment d'espelette<span class="prix">25€</span></p>                      
+            </div>
+
+            <div class="module">
+                <p class="description--bold">Foie gras de canard mi-cuit</span></p>
+                <p class="description">Et ses copeaux de truffe noire<span class="prix">35€</span></p>             
+            </div>
+
+            <div class="module">
+                <p class="description--bold">Oeuf au plat</span></p> 
+                <p class="description">Assaisonné à la truffe sur lit de salade<span class="prix">20€</span></p>           
+            </div>
+
         </div>
 
-    </div>
+        <section>
 
-    <div class="plats">
-        <h2 class="menu">PLATS</h2>
-        <div class="choix">
-            <p class="texte1"><span class="texte2">Filet de boeuf au herbes</span><br /> 
-                <p class="description">Accompagné de sa ribambelle de légume<span class="prix">40€</span></p>
-            </p>
-                
-            
-        </div>
-        <div class="choix">
-            <p class="texte1"><span class="texte2">Parmentier de queue de boeuf</span><br /> 
+            <h2>PLATS</h2>
+
+            <div class="module">
+                <p class="texte1"><span class="texte2">Filet de boeuf au herbes</span><br /> 
+                    <p class="description">Accompagné de sa ribambelle de légume<span class="prix">40€</span></p>
+            </div>
+
+            <div class="module">
+                <p class="description--bold">Parmentier de queue de boeuf</p> 
                 <p class="description">A la truffe noire sur sa purée de panais<span class="prix">35€</span></p>
-            </p>
-                
-            
-        </div>
-        <div class="choix">
-            <p class="texte1"><span class="texte2">Filet de Turbot</span><br /> 
-                <p class="description">Aux agrumes<span class="prix">44€</span></p>
-            </p>
-                
-            
+            </div>
+
+            <div class="module">
+            <p class="description--bold">Filet de Turbot</p> 
+                <p class="description">Aux agrumes<span class="prix">44€</span></p>           
+            </div>
+
         </div>
 
-    </div>
+        <section>
 
-    <div class="desserts">
-        <h2 class="menu">DESSERTS</h2>
-        <div class="choix">
-            <p class="texte1"><span class="texte2">Paris-Brest</span><br /> 
+            <h2>DESSERTS</h2>
+
+            <div class="module">
+                <p class="description--bold">Paris-Brest</p> 
                 <p class="description">Revisité<span class="prix">18€</span></p>
-            </p>
-                
+            </div>
             
-        </div>
-        <div class="choix">
-            <p class="texte1"><span class="texte2">Macaron au chocolat d'exception</span><br /> 
+            <div class="module">
+                <p class="description--bold">Macaron au chocolat d'exception</p> 
                 <p class="description">Et glace à la vanille de Madagascar<span class="prix">22€</span></p>
-            </p>
-                
-            
-        </div>
-        <div class="choix">
-            <p class="texte1"><span class="texte2">Mousse au chocolat</span><br /> 
+            </div>
+
+            <div class="module">
+                <p class="description--bold">Mousse au chocolat</p> 
                 <p class="description">Au piment d'espelette et à la truffe noire<span class="prix">23€</span></p>
-            </p>
-                
+            </div>
+
         </div>
     </div>
-
-    <button class="bouton2"><div class="commander">Commander</div></button>
+    <button>Commander</button>
 
     <footer>
-        <img class="logo" src="images/logo/ohmyfood.png" />
+        <img class="footer__logo" src="images/logo/ohmyfood.png" />
         <ul>
             <li><i class="fas fa-utensils"></i>Proposer un restaurant</li>
             <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
