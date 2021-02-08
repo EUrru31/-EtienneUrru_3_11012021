@@ -46,8 +46,8 @@ td, th {
 
 @font-face {
   font-family: "Roboto";
-  src: url("./fonts/Roboto/Roboto-Thin.ttf");
-  src: url("./fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+  src: url("./fonts/Roboto/Roboto-Regular.ttf");
+  src: url("./fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Roboto";
@@ -61,8 +61,6 @@ td, th {
 }
 header {
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -72,10 +70,12 @@ body {
   margin-left: 0;
   margin-right: 0;
   box-sizing: border-box;
+  line-height: 1.4em;
 }
 
 .logo {
-  width: 250px;
+  width: 150px;
+  display: flex;
 }
 
 .loc {
@@ -104,8 +104,8 @@ body {
 }
 
 h2 {
-  font-size: 1.3em;
-  font-weight: bold;
+  font-size: 1em;
+  margin: 15px;
 }
 
 button {
@@ -136,7 +136,7 @@ button:hover {
 
 .fontionnement__catégories {
   border-radius: 10px;
-  box-shadow: 1px 1px 12px #808080;
+  box-shadow: 1px 1px 12px #969696;
   margin: 0 30px 15px 30px;
   padding: 10px;
 }
@@ -162,7 +162,7 @@ button:hover {
   margin: 10px;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: 1px 1px 12px #d9d9d9;
+  box-shadow: 1px 1px 12px #969696;
 }
 
 .img1 {
@@ -223,10 +223,11 @@ footer i {
   z-index: 1;
 }
 
-.main__menu {
+.menu {
   z-index: 10;
   background-color: white;
   margin-top: -36px;
+  border-radius: 20px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -236,7 +237,6 @@ footer i {
   display: flex;
   justify-content: space-between;
   padding: 5px 20px 10px 15px;
-  border-radius: 20px;
   font-family: "Shrikhand";
 }
 
@@ -254,11 +254,11 @@ section h2 {
 }
 
 .prix {
-  font-size: 1.2em;
   font-weight: bold;
 }
 
 .description {
+  font-size: 0.9em;
   display: flex;
   justify-content: space-between;
 }
