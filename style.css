@@ -98,7 +98,7 @@ body {
 .réservation {
   background-color: #f8f9f9;
   text-align: center;
-  padding: 30px;
+  padding: 20px 35px;
 }
 .réservation h2 {
   padding-left: 35px;
@@ -141,11 +141,12 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-weight: bold;
+  font-size: 0.9em;
 }
 .fonctionnement__list i {
   padding-right: 15px;
   padding-left: 20px;
-  font-size: 0.8em;
 }
 
 .restaurant h2 {
@@ -160,7 +161,7 @@ button:hover {
 
 .restaurant__body {
   background-color: white;
-  margin: 10px;
+  margin: 10px 0;
   overflow: hidden;
   border-radius: 20px;
   box-shadow: 1px 1px 12px #969696;
@@ -272,8 +273,8 @@ header i {
   -webkit-box-shadow: 0px 0px 10px 0px #868586;
   -moz-box-shadow: 0px 0px 10px 0px #868586;
   box-shadow: 0px 0px 10px 0px #868586;
-  border-radius: 10px;
-  margin: 0 10px 15px 10px;
+  border-radius: 15px;
+  margin: 0 20px 15px 20px;
   padding: 10px;
 }
 

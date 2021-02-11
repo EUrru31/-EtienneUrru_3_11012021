@@ -67,7 +67,7 @@ body {
 .réservation {
     background-color: #f8f9f9;
     text-align: center;
-    padding: 30px;
+    padding: 20px 35px;
     h2 {
         padding-left: 35px;
         padding-right: 35px;
@@ -108,10 +108,11 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-weight: bold;
+    font-size: 0.9em;
     i {
         padding-right: 15px;
         padding-left: 20px;
-        font-size: 0.8em;
     }
 }
 
@@ -127,7 +128,7 @@ button {
 
 .restaurant__body {
     background-color: white;
-    margin: 10px;
+    margin: 10px 0;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 1px 1px 12px #969696;
@@ -238,8 +239,8 @@ header i {
 
 .module {
     @include box-shadow;
-    border-radius: 10px;
-    margin: 0 10px 15px 10px;
+    border-radius: 15px;
+    margin: 0 20px 15px 20px;
     padding: 10px;
 }
 
