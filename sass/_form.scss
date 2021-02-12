@@ -47,9 +47,18 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     i {
         padding-right: 15px;
         padding-left: 20px;
+    }
+}
+
+.fonctionnement .module {
+    background-color: #f8f9f9;
+    &:hover {
+        background-color: #f0d3fa;
+        color: $primary;
     }
 }
 
