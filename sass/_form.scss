@@ -160,8 +160,15 @@ h2 {
     }
 }
 
-.module {
+.menu__cards .module {
     @include module;
+
+    &:hover {
+        .check {
+            animation: likes 1s linear;
+            animation-fill-mode: forwards;
+        }
+    }
 }
 
 .prix {
@@ -176,30 +183,23 @@ h2 {
 }
 
 .check {
-    margin-right: -20%;
-    width: 20%;
-    border-radius: 0 10px 10px 0;
+    margin-right: -50px;
+    width: 50px;
     background-color: $third;
     display: flex;
     justify-content: center;
     height: 70px;
-    opacity: 0;
-    animation-duration: 300ms;
-    animation-name: likes;
     i {
         color: white;
         display: flex;
         align-self: center;
     }
 }
-
 @keyframes likes {
     from {
-        opacity: 0;
-        margin-right: -20%;
+        margin-right: -50px;
     }
     to {
-        opacity: 1;
         margin-right: 0;
     }
 }
