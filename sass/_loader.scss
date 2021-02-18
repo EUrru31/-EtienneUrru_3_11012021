@@ -4,9 +4,8 @@
     width: 100%;
     left: 0;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.8);
-    animation: loader;
-    animation-fill-mode: both;
+    background-color: rgba(255, 255, 255, 0.9);
+    animation: loader 1s ease-in-out 3s 1 normal forwards;
     z-index: 10;
     display: flex;
     align-items: center;
@@ -58,7 +57,7 @@
     }
 }
 
-@keyframes loadingpage {
+@keyframes loader {
     100% {
         opacity: 0;
         z-index: -10;

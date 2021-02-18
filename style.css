@@ -131,9 +131,8 @@ button:hover {
   width: 100%;
   left: 0;
   top: 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  animation: loader;
-  animation-fill-mode: both;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation: loader 1s ease-in-out 3s 1 normal forwards;
   z-index: 10;
   display: flex;
   align-items: center;
@@ -181,7 +180,7 @@ button:hover {
     transform: rotate(-360deg);
   }
 }
-@keyframes loadingpage {
+@keyframes loader {
   100% {
     opacity: 0;
     z-index: -10;
@@ -313,9 +312,10 @@ h2 {
 .like {
   display: flex;
   align-self: center;
+  color: black;
 }
 .like:hover {
-  color: #9356dc;
+  background-color: #9356dc;
 }
 
 .img2 {
@@ -366,6 +366,17 @@ h2 {
   bottom: 0;
 }
 
+.prix {
+  display: flex;
+  align-self: flex-end;
+  padding: 17px 15px 20px 10px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu__cards .module {
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -376,24 +387,16 @@ h2 {
   overflow: hidden;
 }
 .menu__cards .module:hover .check {
-  animation: likes 1s linear;
+  animation: likes 0.3s linear;
   animation-fill-mode: forwards;
 }
-
-.prix {
-  display: flex;
-  align-self: flex-end;
-  padding: 17px 15px 17px 10px;
-}
-
-.description {
-  display: flex;
-  justify-content: space-between;
+.menu__cards .module:hover .check i {
+  rotate: 180deg;
 }
 
 .check {
-  margin-right: -50px;
-  width: 50px;
+  margin-right: -70px;
+  width: 70px;
   background-color: #99e2d0;
   display: flex;
   justify-content: center;
@@ -407,7 +410,7 @@ h2 {
 
 @keyframes likes {
   from {
-    margin-right: -50px;
+    margin-right: -70px;
   }
   to {
     margin-right: 0;

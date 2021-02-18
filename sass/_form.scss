@@ -107,8 +107,9 @@ h2 {
 .like {
     display: flex;
     align-self: center;
+    color: black;
     &:hover {
-        color: $primary;
+        background-color: $primary;
     }
 }
 
@@ -160,21 +161,10 @@ h2 {
     }
 }
 
-.menu__cards .module {
-    @include module;
-
-    &:hover {
-        .check {
-            animation: likes 1s linear;
-            animation-fill-mode: forwards;
-        }
-    }
-}
-
 .prix {
     display: flex;
     align-self: flex-end;
-    padding: 17px 15px 17px 10px;
+    padding: 17px 15px 20px 10px;
 }
 
 .description {
@@ -182,9 +172,23 @@ h2 {
     justify-content: space-between;
 }
 
+.menu__cards .module {
+    @include module;
+
+    &:hover {
+        .check {
+            animation: likes 0.3s linear;
+            animation-fill-mode: forwards;
+            i {
+                rotate: 180deg;
+            }
+        }
+    }
+}
+
 .check {
-    margin-right: -50px;
-    width: 50px;
+    margin-right: -70px;
+    width: 70px;
     background-color: $third;
     display: flex;
     justify-content: center;
@@ -195,9 +199,10 @@ h2 {
         align-self: center;
     }
 }
+
 @keyframes likes {
     from {
-        margin-right: -50px;
+        margin-right: -70px;
     }
     to {
         margin-right: 0;
