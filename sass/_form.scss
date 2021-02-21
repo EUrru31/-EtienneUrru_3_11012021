@@ -114,11 +114,6 @@ h2 {
     display: flex;
     justify-content: space-between;
     padding: 5px 20px 10px 15px;
-    .like path {
-        fill: transparent;
-        stroke-width: 30;
-        stroke: black;
-    }
 }
 
 .description--bold {
@@ -126,11 +121,25 @@ h2 {
 }
 
 .like {
+    color: $second;
     display: flex;
-    align-self: center;
-    color: black;
+    align-items: center;
+    & i {
+        font-size: 25px;
+    }
     &:hover {
-        background-color: $primary;
+        animation: likes 0.5s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes likes {
+    0% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: $linear;
     }
 }
 
@@ -200,7 +209,7 @@ h2 {
 
     &:hover {
         .check {
-            animation: likes 0.3s;
+            animation: checks 0.3s;
             animation-fill-mode: forwards;
             i {
                 rotate: 180deg;
@@ -224,7 +233,7 @@ h2 {
     }
 }
 
-@keyframes likes {
+@keyframes checks {
     from {
         margin-right: -70px;
     }
