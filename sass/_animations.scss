@@ -1,6 +1,7 @@
 .delay {
     opacity: 0;
     animation: delays 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes delays {

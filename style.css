@@ -132,7 +132,7 @@ button:hover {
   left: 0;
   top: 0;
   background-color: rgba(255, 255, 255, 0.9);
-  animation: loader 1s ease-in-out 3s 1 normal forwards;
+  animation: loader 3s ease-in-out 3s 1 normal forwards;
   z-index: 10;
   display: flex;
   align-items: center;
@@ -189,6 +189,7 @@ button:hover {
 .delay {
   opacity: 0;
   animation: delays 1s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes delays {
@@ -440,7 +441,7 @@ h2 {
   overflow: hidden;
 }
 .menu__cards .module:hover .check {
-  animation: likes 0.3s linear;
+  animation: likes 0.3s;
   animation-fill-mode: forwards;
 }
 .menu__cards .module:hover .check i {
@@ -510,6 +511,7 @@ footer i {
 .delay {
   opacity: 0;
   animation: delays 1s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes delays {
