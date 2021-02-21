@@ -210,7 +210,7 @@ button:hover {
   left: 0;
   top: 0;
   background-color: rgba(255, 255, 255, 0.9);
-  animation: loader 3s ease-in-out 3s 1 normal forwards;
+  animation: loader 2s ease-in-out 1s 1 normal forwards;
   z-index: 10;
   display: flex;
   align-items: center;
@@ -461,7 +461,7 @@ li p {
 }
 
 .like {
-  color: #9356dc;
+  color: #949292;
   display: flex;
   align-items: center;
 }
@@ -475,6 +475,9 @@ li p {
 .like .fas {
   opacity: 0;
   z-index: 5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   position: absolute;
 }
 .like .fas:hover {
