@@ -125,6 +125,67 @@ button:hover {
   box-shadow: 0px 1px 5px black;
 }
 
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+  .fonctionnement__list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fonctionnement__module {
+    width: 33%;
+  }
+
+  .restaurants__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .restaurant {
+    width: 47%;
+  }
+
+  .modulemenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .modulemenu .module {
+    width: 30%;
+    height: 100px;
+    margin: auto;
+  }
+  .modulemenu h2 {
+    margin-right: 350px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .fonctionnement__list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fonctionnement__module {
+    width: 33%;
+  }
+
+  .restaurants__cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .restaurant {
+    width: 23%;
+  }
+
+  .menu__cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .modulemenu {
+    width: 33%;
+  }
+}
 .loadingpage {
   position: fixed;
   height: 100%;
@@ -299,8 +360,6 @@ h2 {
 }
 .fonctionnement__list {
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 .fonctionnement__list i {
@@ -336,7 +395,7 @@ h2 {
 .restaurant {
   box-shadow: 0px 2px 5px rgba(129, 128, 128, 0.4);
   background-color: white;
-  margin: 10px 0;
+  margin: 10px;
   overflow: hidden;
   border-radius: 20px;
 }
@@ -374,6 +433,8 @@ h2 {
 
 .img2 {
   width: 100%;
+  max-height: 200px;
+  overflow: hidden;
 }
 
 .restaurant__banniere {

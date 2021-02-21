@@ -1,0 +1,62 @@
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+    .fonctionnement__list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fonctionnement__module {
+        width: 33%;
+    }
+
+    .restaurants__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .restaurant {
+        width: 47%;
+    }
+
+    .modulemenu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .module {
+            width: 30%;
+            height: 100px;
+            margin: auto;
+        }
+        h2 {
+            margin-right: 350px;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .fonctionnement__list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fonctionnement__module {
+        width: 33%;
+    }
+
+    .restaurants__cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .restaurant {
+        width: 23%;
+    }
+
+    .menu__cards {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .modulemenu {
+        width: 33%;
+    }
+}
