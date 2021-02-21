@@ -283,39 +283,39 @@ button:hover {
 }
 
 .delay2 {
-  animation-delay: 0.4s;
+  animation-delay: 0.2s;
 }
 
 .delay3 {
-  animation-delay: 0.8s;
+  animation-delay: 0.4s;
 }
 
 .delay4 {
-  animation-delay: 1.2s;
+  animation-delay: 0.6s;
 }
 
 .delay5 {
-  animation-delay: 1.6s;
+  animation-delay: 0.8s;
 }
 
 .delay6 {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .delay7 {
-  animation-delay: 2.4s;
+  animation-delay: 1.2s;
 }
 
 .delay8 {
-  animation-delay: 2.8s;
+  animation-delay: 1.4s;
 }
 
 .delay9 {
-  animation-delay: 3.2s;
+  animation-delay: 1.6s;
 }
 
 .delay10 {
-  animation-delay: 3.6s;
+  animation-delay: 1.8s;
 }
 
 header {
@@ -478,7 +478,7 @@ li p {
   position: absolute;
 }
 .like .fas:hover {
-  animation: likes 1s linear;
+  animation: likes 0.5s linear;
   animation-fill-mode: forwards;
 }
 
@@ -644,39 +644,39 @@ footer i {
 }
 
 .delay2 {
-  animation-delay: 0.4s;
+  animation-delay: 0.2s;
 }
 
 .delay3 {
-  animation-delay: 0.8s;
+  animation-delay: 0.4s;
 }
 
 .delay4 {
-  animation-delay: 1.2s;
+  animation-delay: 0.6s;
 }
 
 .delay5 {
-  animation-delay: 1.6s;
+  animation-delay: 0.8s;
 }
 
 .delay6 {
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .delay7 {
-  animation-delay: 2.4s;
+  animation-delay: 1.2s;
 }
 
 .delay8 {
-  animation-delay: 2.8s;
+  animation-delay: 1.4s;
 }
 
 .delay9 {
-  animation-delay: 3.2s;
+  animation-delay: 1.6s;
 }
 
 .delay10 {
-  animation-delay: 3.6s;
+  animation-delay: 1.8s;
 }
 
 /*# sourceMappingURL=style.css.map */
