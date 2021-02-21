@@ -568,6 +568,10 @@ li p {
   animation: checks 0.3s;
   animation-fill-mode: forwards;
 }
+.menu__cards .module:hover .check i {
+  animation: spin 0.5s linear;
+  animation-fill-mode: forwards;
+}
 
 .check {
   margin-right: -90px;
