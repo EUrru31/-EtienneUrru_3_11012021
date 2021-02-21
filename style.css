@@ -468,8 +468,14 @@ li p {
 .like i {
   font-size: 25px;
 }
+.like .far {
+  z-index: 1;
+  position: relative;
+}
 .like .fas {
   opacity: 0;
+  z-index: 5;
+  position: absolute;
 }
 .like .fas:hover {
   animation: likes 1s linear;
