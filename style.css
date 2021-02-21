@@ -472,7 +472,7 @@ h2 {
     background-color: white;
   }
   100% {
-    background-color: linear-gradient(to bottom right, #ff79da, #9356dc);
+    background-color: #9356dc;
   }
 }
 .img2 {
