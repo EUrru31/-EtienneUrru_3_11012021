@@ -79,6 +79,12 @@ button {
   font-weight: bold;
 }
 
+input {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+
 .fonctionnement__list {
   font-weight: bold;
   font-size: 0.9em;
@@ -344,6 +350,11 @@ body {
 
 .loc i {
   padding-right: 15px;
+}
+
+input {
+  background-color: #d5dbdb;
+  border: none;
 }
 
 .réservation {
