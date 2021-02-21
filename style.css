@@ -109,7 +109,7 @@ footer {
 }
 
 button {
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 5px rgba(129, 128, 128, 0.4);
   background: linear-gradient(to bottom right, #ff79da, #9356dc);
   border-radius: 20px;
   width: fit-content;
@@ -186,6 +186,59 @@ button:hover {
     z-index: -10;
   }
 }
+.delay {
+  opacity: 0;
+  animation: delays 1s;
+}
+
+@keyframes delays {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.delay1 {
+  animation-delay: 0;
+}
+
+.delay2 {
+  animation-delay: 0.4s;
+}
+
+.delay3 {
+  animation-delay: 0.8s;
+}
+
+.delay4 {
+  animation-delay: 1.2s;
+}
+
+.delay5 {
+  animation-delay: 1.6s;
+}
+
+.delay6 {
+  animation-delay: 2s;
+}
+
+.delay7 {
+  animation-delay: 2.4s;
+}
+
+.delay8 {
+  animation-delay: 2.8s;
+}
+
+.delay9 {
+  animation-delay: 3.2s;
+}
+
+.delay10 {
+  animation-delay: 3.6s;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -254,7 +307,7 @@ h2 {
   padding-left: 20px;
 }
 .fonctionnement__module {
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 5px rgba(129, 128, 128, 0.4);
   border-radius: 15px;
   margin: 0 10px 15px 10px;
   display: flex;
@@ -280,7 +333,7 @@ h2 {
 }
 
 .restaurant {
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 5px rgba(129, 128, 128, 0.4);
   background-color: white;
   margin: 10px 0;
   overflow: hidden;
@@ -378,7 +431,7 @@ h2 {
 }
 
 .menu__cards .module {
-  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 2px 5px rgba(129, 128, 128, 0.4);
   border-radius: 15px;
   margin: 0 10px 15px 10px;
   display: flex;
@@ -452,6 +505,59 @@ footer ul i {
 footer i {
   padding-right: 15px;
   width: 30px;
+}
+
+.delay {
+  opacity: 0;
+  animation: delays 1s;
+}
+
+@keyframes delays {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.delay1 {
+  animation-delay: 0;
+}
+
+.delay2 {
+  animation-delay: 0.4s;
+}
+
+.delay3 {
+  animation-delay: 0.8s;
+}
+
+.delay4 {
+  animation-delay: 1.2s;
+}
+
+.delay5 {
+  animation-delay: 1.6s;
+}
+
+.delay6 {
+  animation-delay: 2s;
+}
+
+.delay7 {
+  animation-delay: 2.4s;
+}
+
+.delay8 {
+  animation-delay: 2.8s;
+}
+
+.delay9 {
+  animation-delay: 3.2s;
+}
+
+.delay10 {
+  animation-delay: 3.6s;
 }
 
 /*# sourceMappingURL=style.css.map */

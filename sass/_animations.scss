@@ -1,0 +1,54 @@
+.delay {
+    opacity: 0;
+    animation: delays 1s;
+}
+
+@keyframes delays {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.delay1 {
+    animation-delay: 0;
+}
+
+.delay2 {
+    animation-delay: 0.4s;
+}
+
+.delay3 {
+    animation-delay: 0.8s;
+}
+
+.delay4 {
+    animation-delay: 1.2s;
+}
+
+.delay5 {
+    animation-delay: 1.6s;
+}
+
+.delay6 {
+    animation-delay: 2s;
+}
+
+.delay7 {
+    animation-delay: 2.4s;
+}
+
+.delay8 {
+    animation-delay: 2.8s;
+}
+
+.delay9 {
+    animation-delay: 3.2s;
+}
+
+.delay10 {
+    animation-delay: 3.6s;
+}
