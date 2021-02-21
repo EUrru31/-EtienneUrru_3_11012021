@@ -279,7 +279,7 @@ button:hover {
   }
 }
 .delay1 {
-  animation-delay: 0;
+  animation-delay: 0s;
 }
 
 .delay2 {
@@ -559,9 +559,6 @@ li p {
   animation: checks 0.3s;
   animation-fill-mode: forwards;
 }
-.menu__cards .module:hover .check i {
-  rotate: 180deg;
-}
 
 .check {
   margin-right: -70px;
@@ -637,7 +634,7 @@ footer i {
   }
 }
 .delay1 {
-  animation-delay: 0;
+  animation-delay: 0s;
 }
 
 .delay2 {
