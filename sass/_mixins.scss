@@ -4,6 +4,7 @@
 
 @mixin module {
     @include box-shadow;
+    max-height: 80px;
     border-radius: 15px;
     margin: 0 10px 15px 10px;
     display: flex;
