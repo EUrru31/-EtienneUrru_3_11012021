@@ -1,0 +1,120 @@
+.delay {
+    opacity: 0;
+    animation: delays 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes delays {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.delay1 {
+    animation-delay: 0s;
+}
+
+.delay2 {
+    animation-delay: 0.2s;
+}
+
+.delay3 {
+    animation-delay: 0.4s;
+}
+
+.delay4 {
+    animation-delay: 0.6s;
+}
+
+.delay5 {
+    animation-delay: 0.8s;
+}
+
+.delay6 {
+    animation-delay: 1s;
+}
+
+.delay7 {
+    animation-delay: 1.2s;
+}
+
+.delay8 {
+    animation-delay: 1.4s;
+}
+
+.delay9 {
+    animation-delay: 1.6s;
+}
+
+.delay10 {
+    animation-delay: 1.8s;
+}
+
+.menu__cards .module {
+    @include module;
+
+    &:hover {
+        .check {
+            animation: checks 0.3s;
+            animation-fill-mode: forwards;
+            i {
+                animation: spin 0.5s linear;
+                animation-fill-mode: forwards;
+            }
+        }
+    }
+}
+
+@keyframes checks {
+    from {
+        margin-right: -90px;
+    }
+    to {
+        margin-right: 0;
+    }
+}
+
+.like {
+    color: rgb(148, 146, 146);
+    display: flex;
+    align-items: center;
+    & i {
+        font-size: 25px;
+    }
+    .far {
+        z-index: 1;
+        position: relative;
+    }
+    .fas {
+        opacity: 0;
+        z-index: 5;
+        background: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            from(#ff79da),
+            to(#9356dc)
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+    }
+    .fas:hover {
+        animation: likes 0.5s linear;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes likes {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

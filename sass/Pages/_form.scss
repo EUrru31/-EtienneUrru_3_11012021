@@ -122,47 +122,6 @@ li p {
     font-weight: bold;
 }
 
-.like {
-    color: rgb(148, 146, 146);
-    display: flex;
-    align-items: center;
-    & i {
-        font-size: 25px;
-    }
-    .far {
-        z-index: 1;
-        position: relative;
-    }
-    .fas {
-        opacity: 0;
-        z-index: 5;
-        background: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            from(#ff79da),
-            to(#9356dc)
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        position: absolute;
-    }
-    .fas:hover {
-        animation: likes 0.5s linear;
-        animation-fill-mode: forwards;
-    }
-}
-
-@keyframes likes {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 .img2 {
     width: 100%;
     max-height: 200px;
@@ -224,21 +183,6 @@ li p {
     justify-content: space-between;
 }
 
-.menu__cards .module {
-    @include module;
-
-    &:hover {
-        .check {
-            animation: checks 0.3s;
-            animation-fill-mode: forwards;
-            i {
-                animation: spin 0.5s linear;
-                animation-fill-mode: forwards;
-            }
-        }
-    }
-}
-
 .check {
     margin-right: -90px;
     width: 70px;
@@ -251,15 +195,6 @@ li p {
         color: white;
         display: flex;
         align-self: center;
-    }
-}
-
-@keyframes checks {
-    from {
-        margin-right: -90px;
-    }
-    to {
-        margin-right: 0;
     }
 }
 
