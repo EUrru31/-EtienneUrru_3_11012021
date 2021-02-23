@@ -156,20 +156,6 @@ button:hover {
     width: 47%;
     margin: 10px auto !important;
   }
-
-  .modulemenu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .modulemenu .module {
-    width: 30%;
-    height: 100px;
-    margin: auto;
-  }
-  .modulemenu h2 {
-    margin-right: 800px;
-  }
 }
 @media screen and (min-width: 1025px) {
   .fonctionnement__list {
@@ -529,11 +515,11 @@ li p {
   background-color: white;
 }
 
-.menu_cards h2 {
+.menu__cards h2 {
   position: relative;
   padding-bottom: 7px;
 }
-.menu_cards h2::after {
+.menu__cards h2::after {
   content: "";
   width: 50px;
   height: 3px;
@@ -598,9 +584,13 @@ li p {
 }
 .cards {
   padding: 10px 0px 10px 10px;
-  width: 90%;
+  flex-grow: 1;
+  width: 100px;
   display: flex;
   flex-direction: column;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 footer {

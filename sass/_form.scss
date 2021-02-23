@@ -199,7 +199,7 @@ li p {
     background-color: white;
 }
 
-.menu_cards h2 {
+.menu__cards h2 {
     position: relative;
     padding-bottom: 7px;
     &::after {
@@ -265,7 +265,11 @@ li p {
 
 .cards {
     padding: 10px 0px 10px 10px;
-    width: 90%;
+    flex-grow: 1;
+    width: 100px;
     display: flex;
     flex-direction: column;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
