@@ -168,6 +168,8 @@ td, th {
   cursor: pointer;
   max-width: 100%;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .menu__cards .module:hover .check {
   animation: checks 0.3s;
@@ -475,6 +477,8 @@ h2 {
   cursor: pointer;
   max-width: 100%;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   background-color: #f8f9f9;
   padding: 10px;
   margin-left: auto;
@@ -602,7 +606,7 @@ li p {
   background-color: #99e2d0;
   display: flex;
   justify-content: center;
-  height: 80px;
+  height: 70px;
   overflow: hidden;
 }
 .check i {
@@ -617,9 +621,6 @@ li p {
   width: 100px;
   display: flex;
   flex-direction: column;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
