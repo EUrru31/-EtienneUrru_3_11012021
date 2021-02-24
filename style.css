@@ -166,10 +166,7 @@ td, th {
   margin: 0 10px 15px 10px;
   display: flex;
   cursor: pointer;
-  max-width: 100%;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .menu__cards .module:hover .check {
   animation: checks 0.3s;
@@ -475,10 +472,7 @@ h2 {
   margin: 0 10px 15px 10px;
   display: flex;
   cursor: pointer;
-  max-width: 100%;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   background-color: #f8f9f9;
   padding: 10px;
   margin-left: auto;
@@ -537,6 +531,12 @@ li p {
 
 .description--bold {
   font-weight: bold;
+  display: inline-block;
+  justify-content: space-between;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex: 1;
 }
 
 .img2 {
@@ -590,18 +590,22 @@ li p {
 }
 
 .prix {
-  display: flex;
+  display: block;
   align-self: flex-end;
   padding: 17px 25px 20px 10px;
 }
 
 .description {
-  display: flex;
+  display: inline-block;
   justify-content: space-between;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  flex: 1;
 }
 
 .check {
-  margin-right: -90px;
+  margin-right: -70px;
   width: 70px;
   background-color: #99e2d0;
   display: flex;
@@ -617,10 +621,12 @@ li p {
 
 .cards {
   padding: 10px 0px 10px 10px;
-  flex-grow: 1;
-  width: 100px;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 /*# sourceMappingURL=style.css.map */
