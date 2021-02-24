@@ -103,6 +103,33 @@ li p {
     overflow: hidden;
     border-radius: 20px;
     cursor: pointer;
+    position: relative;
+    &__nouveau {
+        background-color: $third;
+        padding: 4px 10px;
+        border-radius: 3px;
+        position: absolute;
+        top: 1rem;
+        right: 0.75rem;
+    }
+
+    &__description {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px 10px 15px;
+    }
+
+    &__banniere {
+        z-index: 1;
+    }
+
+    &__banniere--description {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 30px 30px 10px 20px;
+        background-color: white;
+    }
 }
 
 .img1 {
@@ -110,12 +137,6 @@ li p {
     height: 200px;
     border-radius: 10px 10px 0 0;
     object-fit: cover;
-}
-
-.restaurant__description {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 20px 10px 15px;
 }
 
 .description--bold {
@@ -132,10 +153,6 @@ li p {
     width: 100%;
     max-height: 200px;
     object-fit: cover;
-}
-
-.restaurant__banniere {
-    z-index: 1;
 }
 
 .menu {
@@ -156,15 +173,7 @@ li p {
     }
 }
 
-.restaurant__banniere--description {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 30px 30px 10px 20px;
-    background-color: white;
-}
-
-.menu__cards h2 {
+.restaurant .menu__cards h2 {
     position: relative;
     padding-bottom: 7px;
     &::after {
