@@ -587,11 +587,11 @@ li p {
   padding-right: 50px;
 }
 
-.restaurant .menu__cards h2 {
+.menu__cards h2 {
   position: relative;
   padding-bottom: 7px;
 }
-.restaurant .menu__cards h2::after {
+.menu__cards h2::after {
   content: "";
   width: 50px;
   height: 3px;
