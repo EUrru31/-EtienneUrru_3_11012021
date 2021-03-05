@@ -338,6 +338,10 @@ button:hover {
   }
 }
 @media screen and (min-width: 1025px) {
+  .fonctionnement {
+    margin: 10px;
+  }
+
   .fonctionnement__list {
     display: flex;
     flex-direction: row;
