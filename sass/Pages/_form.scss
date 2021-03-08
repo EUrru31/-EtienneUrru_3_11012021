@@ -14,12 +14,12 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
 }
 
 .loc i {
-    padding-right: 15px;
+    padding-right: 0.95rem;
 }
 
 input {
@@ -30,30 +30,30 @@ input {
 .réservation {
     background-color: #f8f9f9;
     text-align: center;
-    padding: 20px 35px;
+    padding: 1.25rem 2.1875rem;
     h2 {
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 2.1875rem;
+        padding-right: 2.1875rem;
         font-size: 1.5em;
     }
 }
 
 h2 {
-    margin: 15px;
+    margin: 0.95rem;
 }
 
 .fonctionnement {
     h2 {
-        margin-top: 30px;
-        margin-left: 20px;
+        margin-top: 1.875rem;
+        margin-left: 1.25rem;
     }
 
     &__list {
-        margin-top: 20px;
+        margin-top: 1.25rem;
         justify-content: center;
         i {
-            padding-right: 15px;
-            padding-left: 20px;
+            padding-right: 0.95rem;
+            padding-left: 1.25rem;
             flex-direction: column;
             display: flex;
             justify-content: center;
@@ -62,7 +62,7 @@ h2 {
     &__module {
         @include module;
         background-color: #f8f9f9;
-        padding: 10px;
+        padding: 0.625rem;
         margin-left: auto;
         margin-right: auto;
         width: 80%;
@@ -76,38 +76,38 @@ h2 {
 li p {
     color: white;
     border-radius: 100%;
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-left: -18px;
+    margin-left: -1.125rem;
     position: absolute;
     background-color: $primary;
 }
 
 .restaurant h2 {
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 1.875rem;
+    margin-left: 1.25rem;
 }
 
 .restaurants {
     background-color: #f8f9f9;
-    padding: 10px 20px 30px 20px;
+    padding: 0.625rem 1.25rem 1.875rem 1.25rem;
 }
 
 .restaurant {
     @include box-shadow;
     background-color: white;
-    margin: 10px;
+    margin: 0.625rem;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     cursor: pointer;
     position: relative;
     &__nouveau {
         background-color: $third;
-        padding: 4px 10px;
-        border-radius: 3px;
+        padding: 0.25rem 0.625rem;
+        border-radius: 0.19rem;
         position: absolute;
         top: 1rem;
         right: 0.75rem;
@@ -116,7 +116,7 @@ li p {
     &__description {
         display: flex;
         justify-content: space-between;
-        padding: 5px 20px 10px 15px;
+        padding: 0.31rem 1.25rem 0.625rem 0.95rem;
     }
 
     &__banniere {
@@ -127,15 +127,15 @@ li p {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 30px 30px 10px 20px;
+        padding: 1.875rem 1.875rem 0.625rem 1.25rem;
         background-color: white;
     }
 }
 
 .img1 {
     width: 100%;
-    height: 200px;
-    border-radius: 10px 10px 0 0;
+    height: 12.5rem;
+    border-radius: 0.625rem 0.625rem 0 0;
     object-fit: cover;
 }
 
@@ -151,14 +151,14 @@ li p {
 
 .img2 {
     width: 100%;
-    max-height: 200px;
+    max-height: 12.5rem;
     object-fit: cover;
 }
 
 .menu {
     z-index: 10;
-    margin-top: -36px;
-    border-radius: 30px;
+    margin-top: -2.25rem;
+    border-radius: 1.875rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -168,18 +168,18 @@ li p {
         width: 100%;
     }
     button {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 3.125rem;
+        padding-right: 3.125rem;
     }
 }
 
 .menu__cards h2 {
     position: relative;
-    padding-bottom: 7px;
+    padding-bottom: 0.4375rem;
     &::after {
         content: "";
-        width: 50px;
-        height: 3px;
+        width: 3.125rem;
+        height: 0.19rem;
         background-color: $third;
         position: absolute;
         left: 0;
@@ -190,7 +190,7 @@ li p {
 .prix {
     display: block;
     align-self: flex-end;
-    padding: 17px 25px 20px 10px;
+    padding: 1.0625rem 1.5625rem 1.25rem 0.625rem;
 }
 
 .description {
@@ -203,12 +203,12 @@ li p {
 }
 
 .check {
-    margin-right: -70px;
-    width: 70px;
+    margin-right: -4.375rem;
+    width: 4.375rem;
     background-color: $third;
     display: flex;
     justify-content: center;
-    height: 70px;
+    height: 4.375rem;
     overflow: hidden;
     i {
         color: white;
@@ -218,7 +218,7 @@ li p {
 }
 
 .cards {
-    padding: 10px 0px 10px 10px;
+    padding: 0.625rem 0rem 0.625rem 0.625rem;
     width: 100%;
     display: flex;
     flex-direction: column;
